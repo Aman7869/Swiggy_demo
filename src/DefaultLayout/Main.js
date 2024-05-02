@@ -7,7 +7,7 @@ import Restaurant from '../Pages/Restaurant/Restaurant'
 const Main = () => {
   return (
     <Routes>
-    <Route path="/" element={<Home />} />
+    <Route path="/Swiggy_demo" element={<Home />} />
     <Route path="/restaurant/:id" element={<Restaurant />} />
   </Routes>
   )
