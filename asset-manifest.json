@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Swiggy_demo/static/css/main.f349675e.css",
+    "main.js": "/Swiggy_demo/static/js/main.bcf75adb.js",
+    "static/js/592.c25b981a.chunk.js": "/Swiggy_demo/static/js/592.c25b981a.chunk.js",
+    "static/media/slider3.jpg": "/Swiggy_demo/static/media/slider3.c29909154cd0863d66c2.jpg",
+    "static/media/slider2.jpg": "/Swiggy_demo/static/media/slider2.c2d691d6f3058162853a.jpg",
+    "static/media/slider1.jpg": "/Swiggy_demo/static/media/slider1.c1d36da561c60f28969e.jpg",
+    "static/media/Chinese.png": "/Swiggy_demo/static/media/Chinese.19603b9be07a9409cd31.png",
+    "static/media/Pizza.png": "/Swiggy_demo/static/media/Pizza.3df1f38aba1cdc6e1838.png",
+    "static/media/North_Indian_4.png": "/Swiggy_demo/static/media/North_Indian_4.6c3eb290a46290a8ba5b.png",
+    "static/media/Pasta.png": "/Swiggy_demo/static/media/Pasta.c27cac95775a018baf7d.png",
+    "static/media/Cakes.png": "/Swiggy_demo/static/media/Cakes.44e3ce1dd424a45e9ad5.png",
+    "static/media/star.png": "/Swiggy_demo/static/media/star.d0cbd94e0a4a62fc2bf4.png",
+    "index.html": "/Swiggy_demo/index.html",
+    "main.f349675e.css.map": "/Swiggy_demo/static/css/main.f349675e.css.map",
+    "main.bcf75adb.js.map": "/Swiggy_demo/static/js/main.bcf75adb.js.map",
+    "592.c25b981a.chunk.js.map": "/Swiggy_demo/static/js/592.c25b981a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f349675e.css",
+    "static/js/main.bcf75adb.js"
+  ]
+}
