@@ -4,7 +4,7 @@ export const FoodSection = styled.div`
 padding: 2% 2%;
  & .food-card{
     width: 10rem;
-    cursor: -webkit-grab; cursor: grab;
+    cursor: pointer;
  }
 
  & .food-card:hover{

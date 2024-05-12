@@ -6,7 +6,7 @@ export const FoodCardStyle = styled.div`
         min-height: 334px;
         font-size: 15px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        cursor: -webkit-grab; cursor: grab;
+        cursor: -webkit-grab; cursor: pointer;
         
     }
 

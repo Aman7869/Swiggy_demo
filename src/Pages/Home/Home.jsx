@@ -8,7 +8,7 @@ import Pasta from '../../assets/images/Pasta.png';
 import Pizza from '../../assets/images/Pizza.png';
 import FoodCard from '../../Components/FoodCard/FoodCard'
 import axios from "axios";
-import { CDN_URL } from "../../Utils/constants";
+import { CDN_URL, SWIGGY_URL } from "../../Utils/constants";
 import { SearchContext } from '../../Utils/searchContext';
 
 const Home = () => {
@@ -25,10 +25,12 @@ const Home = () => {
 
     const getData = () => {
         axios({
+            // url: SWIGGY_URL,
             url: CDN_URL,
             method: "GET",
         })
             .then((res) => {
+                console.log('res: ', res);
                 if (res && res != null) {
                     const updatedData = res?.data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
                     console.log('updatedData: ', updatedData);

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Navbar from './Navbar';
 import Main from './Main';
 import { SearchContext } from '../Utils/searchContext';
+import Footer from './Footer/Footer';
 
 
 const DefaultLayout = () => {
@@ -14,6 +15,7 @@ const DefaultLayout = () => {
       >
         <Navbar />
         <Main />
+        <Footer />
       </SearchContext.Provider>
     </>
   )

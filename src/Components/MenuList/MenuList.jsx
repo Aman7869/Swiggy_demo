@@ -1,9 +1,18 @@
 import React from 'react'
 import { MenuListStyle } from './style'
 import { MENU_IMAGE } from '../../Utils/constants'
+import Slider2 from '../../assets/images/slider2.jpg'
+import { useDispatch } from 'react-redux'
+import { addItem } from "../../store/cartSlice";
+
 
 const MenuList = ({ data }) => {
-    const { name, price, description, imageId } = data?.card?.info
+    const dispatch = useDispatch();
+    const { name, price, description, imageId, id } = data?.card?.info
+    const handleClick = () => {
+        dispatch(addItem(data?.card?.info));
+        console.log("Click", id);
+    }
     return (
         <>
             <MenuListStyle>
@@ -16,8 +25,9 @@ const MenuList = ({ data }) => {
                         </div>
                         <div className='col-md-4 '>
                             <div className='menu-item'>
-                                <img src={MENU_IMAGE + imageId} className='menu-img' alt="menu image" />
-                                <button className='btn btn-dark me-4 d-block w-100'>Add</button>
+                                <img src={Slider2} className='menu-img' alt="menu image" />
+                                {/* <img src={MENU_IMAGE + imageId} className='menu-img' alt="menu image" /> */}
+                                <button className='btn btn-dark me-4 mt-1 d-block w-100' onClick={() => handleClick()}>Add</button>
                             </div>
                         </div>
                     </div>
