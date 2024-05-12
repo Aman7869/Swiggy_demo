@@ -22,6 +22,12 @@ padding: 2% 2%;
  & .card-body {
     text-align: center;
  }
+
+ @media screen and (max-width: 767px) {
+    & .category{
+      flex-wrap: wrap;
+    }
+ }
 `;
 
 export const TopRestaurant = styled.div`

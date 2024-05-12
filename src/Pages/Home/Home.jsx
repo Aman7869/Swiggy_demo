@@ -80,7 +80,7 @@ const Home = () => {
             <FoodSection>
                 <div className='food_section container-fluid'>
                     <h4>What do you want to eat?</h4>
-                    <div className='d-flex'>
+                    <div className='d-flex category'>
 
                         <div className="food-card" onClick={() => foodCategory("North Indian")}>
                             <img className="card-img-top" src={NorthIndian} alt="Card image cap" />

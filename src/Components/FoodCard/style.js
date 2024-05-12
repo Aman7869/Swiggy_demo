@@ -6,8 +6,7 @@ export const FoodCardStyle = styled.div`
         min-height: 334px;
         font-size: 15px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        cursor: -webkit-grab; cursor: pointer;
-        
+        cursor: -webkit-grab; cursor: pointer;  
     }
 
     & .food-link {
@@ -24,7 +23,14 @@ export const FoodCardStyle = styled.div`
         width: 14em;
         overflow: hidden;
         white-space: nowrap;
-        text-overflow: ellipsis;
-        
+        text-overflow: ellipsis;  
     }
+    @media screen and (max-width: 767px) {
+        & .me-5{
+          margin-right:0px !important;
+        }
+        & .mt-5{
+            margin-top: 0px !important;
+        }
+     }
 `;
