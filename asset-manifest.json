@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Swiggy_demo/static/css/main.cbc512fe.css",
-    "main.js": "/Swiggy_demo/static/js/main.388ed53e.js",
+    "main.js": "/Swiggy_demo/static/js/main.799980d1.js",
     "static/js/592.c25b981a.chunk.js": "/Swiggy_demo/static/js/592.c25b981a.chunk.js",
     "static/media/slider3.jpg": "/Swiggy_demo/static/media/slider3.c29909154cd0863d66c2.jpg",
     "static/media/slider2.jpg": "/Swiggy_demo/static/media/slider2.c2d691d6f3058162853a.jpg",
@@ -14,11 +14,11 @@
     "static/media/star.png": "/Swiggy_demo/static/media/star.d0cbd94e0a4a62fc2bf4.png",
     "index.html": "/Swiggy_demo/index.html",
     "main.cbc512fe.css.map": "/Swiggy_demo/static/css/main.cbc512fe.css.map",
-    "main.388ed53e.js.map": "/Swiggy_demo/static/js/main.388ed53e.js.map",
+    "main.799980d1.js.map": "/Swiggy_demo/static/js/main.799980d1.js.map",
     "592.c25b981a.chunk.js.map": "/Swiggy_demo/static/js/592.c25b981a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbc512fe.css",
-    "static/js/main.388ed53e.js"
+    "static/js/main.799980d1.js"
   ]
 }
