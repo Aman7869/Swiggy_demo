@@ -8,7 +8,6 @@ import {clearItem} from "../../store/cartSlice";
 const ItemStore = () => {
     const dispatch = useDispatch();
     const itemData = useSelector((store) => store.cart.items);
-    console.log('itemData: ', itemData);
     const clearItemList = () => {
         dispatch(clearItem());
     }

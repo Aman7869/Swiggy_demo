@@ -31,7 +31,7 @@ const Navbar = () => {
             </li>
 
           </ul>
-          <form className="d-flex">
+          <form className="d-flex col-sm-4 col-md-3">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" onChange={(e) => setSearch(e.target.value)} value={search} />
             <button className="btn btn-outline-success" onClick={(e) => handleSubmit(e)}>Search</button>
           </form>
